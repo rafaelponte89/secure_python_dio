@@ -48,21 +48,5 @@ def word_list(_string='', min=False, max=False, eq=False, numbers=False, \
     return wd_list
 
 print(word_list(opt=True))
-#
-# # table ascii
-# # 48-57 numbers
-# # 32-47  e 58 - 64 e  91-96 e 123-126 special caracteres
-# # 97 - 122 lower
-# # 65 - 90 upper
-# numbers = input('Enter numbers:')
-#
-# if numbers == '1':
-#     for i in range (48,57):
-#         string += ''.join(chr(i))
-# elif numbers == '2':
-#     for i in range (65,91):
-#         string += ''.join(chr(i))
-#
-#
-# print(word_list(string,min,max))
+
 
